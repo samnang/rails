@@ -1,5 +1,14 @@
 ## Rails 4.1.5 (August 18, 2014) ##
 
+*   Fix has_many :through relation merging failing when dynamic conditions are
+    passed as a lambda with an arity of one.
+
+    Fixes #16128
+
+    *Agis Anastasopoulos*
+
+*   Fixed the `Relation#exists?` to work with polymorphic associations.
+
 *   No changes.
 
 
